@@ -1,0 +1,12 @@
+@import "_variables.scss";
+.chicken {
+    height: 1rem;
+    transition: all 0.3s;
+    border-radius: 50%;
+}
+
+.chicken:hover {
+    border-radius: 0;
+    filter: grayscale(100%);
+    transform: scale(1.3);
+}

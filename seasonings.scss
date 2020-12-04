@@ -1,0 +1,13 @@
+@import "_variables.scss";
+.seasonings {
+    background-image: url("./images/seasonings.png");
+    background-position: center;
+    font-size: 5rem;
+    -webkit-background-clip: text;
+    transition: all 0.3s;
+}
+
+.seasonings:hover {
+    transform: skewY(-10deg);
+    letter-spacing: 1rem;
+}
