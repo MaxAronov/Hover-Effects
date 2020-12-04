@@ -2,12 +2,13 @@
 .picnic {
     height: 30rem;
     position: relative;
+    margin-top: 10rem;
 }
 
 .picnic-picture {
     height: 100%;
     clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .picnic-title {

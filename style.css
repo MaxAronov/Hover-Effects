@@ -14,29 +14,6 @@ html {
           box-sizing: border-box;
 }
 
-.chicken {
-  height: 1rem;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  border-radius: 50%;
-}
-
-.chicken:hover {
-  border-radius: 0;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-}
-
-html {
-  font-size: 62.5%;
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .button,
 .button:link,
 .button:visited {
@@ -103,41 +80,42 @@ html {
           box-sizing: border-box;
 }
 
-.picnic {
-  height: 30rem;
-  position: relative;
+.chicken {
+  height: 1rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 50%;
 }
 
-.picnic-picture {
-  height: 100%;
-  -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-          clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+.chicken:hover {
+  border-radius: 0;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.seasonings {
+  background-image: url("./images/seasonings.png");
+  background-position: center;
+  font-size: 5rem;
+  -webkit-background-clip: text;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-.picnic-title {
-  font-size: 2rem;
-  opacity: 0;
-  color: white;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  text-transform: uppercase;
-}
-
-.picnic:hover .picnic-picture {
-  -webkit-filter: grayscale(90%);
-          filter: grayscale(90%);
-}
-
-.picnic:hover .picnic-title {
-  opacity: 1;
-  top: 50%;
+.seasonings:hover {
+  -webkit-transform: skewY(-10deg);
+          transform: skewY(-10deg);
+  letter-spacing: 1rem;
 }
 
 html {
@@ -207,19 +185,42 @@ html {
           box-sizing: border-box;
 }
 
-.chicken {
-  height: 1rem;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  border-radius: 50%;
+.picnic {
+  height: 30rem;
+  position: relative;
+  margin-top: 10rem;
 }
 
-.chicken:hover {
-  border-radius: 0;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+.picnic-picture {
+  height: 100%;
+  -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+          clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.picnic-title {
+  font-size: 2rem;
+  opacity: 0;
+  color: white;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+.picnic:hover .picnic-picture {
+  -webkit-filter: grayscale(90%);
+          filter: grayscale(90%);
+}
+
+.picnic:hover .picnic-title {
+  opacity: 1;
+  top: 50%;
 }
 
 .container {
