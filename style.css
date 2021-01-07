@@ -154,11 +154,11 @@ html {
 }
 
 .mountain:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  -webkit-transform: scale(2);
+          transform: scale(2);
   -webkit-box-shadow: 0 3rem 1rem rgba(0, 0, 0, 0.4);
           box-shadow: 0 3rem 1rem rgba(0, 0, 0, 0.4);
-  outline: 1rem solid red;
+  outline: 0.1rem solid red;
   z-index: 2;
 }
 
